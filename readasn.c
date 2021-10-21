@@ -234,7 +234,7 @@ static int decode_asn(FILE *file, long size, int is_indef, int is_root, int recn
                 printf("|");
                 for (i = 0; i < a_item.size; i++)
                     printf("%02x", (unsigned int) buffin_str[i]);
-                printf("|\n");
+                printf("\n");
 
                 pos += a_item.size;
 
